@@ -1,0 +1,236 @@
+/* Navigation styles */
+.logo {
+  background: white;
+  height: 200px;
+  background-image: url("../images/gavlogo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.nav {
+  display: flex;
+  background-color: #F8E8D9;
+  color: white;
+  padding: 20px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+
+}
+
+.left, .center, .right {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left, .right {
+  width: 25%;
+}
+.center {
+  width: 50%;
+}
+
+.picture{
+display: flex;
+align-items: center;
+margin: 20px;
+margin-left: 60px;
+
+}
+
+.center a {
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  font-family:chizo;
+  font-size:35px;
+  font-weight: bolder;
+  background-color: #FBC968 ;
+  -webkit-text-stroke-width: 1.1px;
+  -webkit-text-stroke-color: black;
+
+}
+
+.right button {
+  background-color: yellow;
+  color:black;
+  font-size: 16px;
+  padding: 15px;
+  width: 50%;
+}
+
+.left button {
+  background-image: url("../images/leftarrow.png");
+  background-repeat: no-repeat;
+  width: 50x;
+  height: 50px;
+
+
+
+
+}
+
+/* Column styles */
+.column {
+  display: flex;
+  height: 800px;
+  width: auto;
+  flex-direction: column;
+  margin: 0 auto;
+  background-color: #482037;
+}
+
+
+.radio {
+  margin-top:50px;
+  background-image: url("../images/wood.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 700px;
+
+}
+
+.inside{
+  display: flex;
+  width: 75%;
+  background-color: white;
+  position:relative; top:50px;
+  margin-left: auto;    
+  margin-right: auto;  
+  position: relative;
+  height: 600px;
+
+}
+
+.text {
+  background: rgb(255	90	109);
+  width: 40%;
+  padding: 20px 40px;
+  color: white;
+
+
+
+}
+.speaker{
+  width: 40%;
+  float: right;
+  background-color: rgb(255	172	186	)	;
+  position: relative;
+
+}
+
+.control{
+  float: right;
+  background-color: #36C992;
+  width: 15%;
+}
+
+.text p {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #36C992;
+  text-shadow: 5px, 5px;
+  font-size: 100px;
+  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  box-shadow: 6px 6px black;
+  margin-top: 100px;
+  font-size: 20px;
+
+}
+
+.p{
+  font-size: 100px;
+}
+.text h1 {
+  font-family: Chizo;
+  background-color:rgb(97	94	208	) ;
+  margin: auto;
+  margin-top: 60px;
+  width: 70%;
+  padding-left: 40px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #FBC968;
+  box-shadow: 6px 6px black;
+  font-weight: bold;
+  font-size: 45px;
+  align-content: center;
+  
+}
+
+.imagetext {
+  margin: 30px;
+  font-size: 20px;
+}
+
+
+.fs{
+  margin-left: 41px;
+  margin-top: 50px;
+}
+
+.dot1 {
+  height: 90px;
+  width: 90px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;  
+  margin-left: 43px;
+  margin-top: 40px;
+  background-image: url("../images/fb.png")
+}
+
+.dot2 {
+  height: 90px;
+  width: 90px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;  
+  margin-left: 43px;
+  margin-top: 40px;
+}
+
+.dot3 {
+  height: 90px;
+  width: 90px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;  
+  margin-left: 43px;
+  margin-top: 40px;
+}
+
+
+/* Footer Styles */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  height: 100px;
+
+}
+
+.footer a {
+  padding: 20px 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.ig {
+  color: red;
+}
+
+.fb {
+  color:skyblue;
+}
+
+.tw {
+  color: yellow;
+}
+
